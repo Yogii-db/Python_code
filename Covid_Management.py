@@ -9,7 +9,7 @@ mydb=mysql.connector.connect(
     database="yogii_db"
 )
 mycursor=mydb.cursor()
-#mycursor.execute("create table vaccine(id int,name varchar(255),age int,dosename int,doseno int,address varchar(255))" )
+#mycursor.execute("create table vaccine(id int,name varchar(255),age int,dosename varchar(255),doseno int,address varchar(255))" )
 #print("table created successfully")
 print("Welcome to INDIA COVID19 Data Management System \nWe Have All South Indian State covid details")
 def tamilnadu():
